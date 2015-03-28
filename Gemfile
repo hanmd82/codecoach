@@ -32,7 +32,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Devise for user authentication
 gem 'devise'
+
+# FactoryGirl for generating test factories
+gem "factory_girl_rails", "~> 4.0"
 
 group :development, :test do
   # Use mysql as the database for Active Record
